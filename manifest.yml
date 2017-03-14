@@ -3,10 +3,7 @@ applications:
   memory: 512M
   instances: 1
   domain: mybluemix.net
-  name: vaiduq
-  host: vaiduq
+  name: chatbot-basico
+  host: chatbot-sampleApp${random-word}
   disk_quota: 1024M
-  services:
-  - vaiduq-cloudantNoSQLDB
-  - Conversation-vv
   
