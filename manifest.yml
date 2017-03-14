@@ -4,6 +4,6 @@ applications:
   instances: 1
   domain: mybluemix.net
   name: chatbot-basico
-  host: chatbot-sampleApp${random-word}
+  host: chatbot-${random-word}
   disk_quota: 1024M
   
