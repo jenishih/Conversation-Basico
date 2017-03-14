@@ -44,15 +44,15 @@ app.get('/', routes.index);
 
 //credenciais de acesso ao serviço do Watson Conversation
 var conversation = watson.conversation({
-  username:'6f8b8ad7-c4b1-4c59-ac56-034744df982d',//substitua pelo username do seu serviço
-  password:'BHiRNqxo8EXH',//substitua pelo password do seu serviço
+  username:'<username>',//substitua pelo username do seu serviço
+  password:'<password>',//substitua pelo password do seu serviço
   version: 'v1',
   version_date: '2016-07-11'
 });
 
 
 //Worskpace ID a ser mudado pelo seu Conversation
-var workspace = '271654e5-008e-486e-9242-c294be080bdc';
+var workspace = '<workspace_id>';
 
 
 app.post('/converse', function(req, res, next) {
