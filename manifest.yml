@@ -3,7 +3,7 @@ applications:
   memory: 512M
   instances: 1
   domain: mybluemix.net
-  name: chatbot-basico
-  host: chatbot-${random-word}
+  name: Gourmet
+  host: Gourmet
   disk_quota: 1024M
   
